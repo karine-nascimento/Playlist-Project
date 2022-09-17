@@ -1,0 +1,1150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'header header header header';
+    background-color: #1d1d1d;
+}
+header {
+    grid-row: 1/3;
+    background-color: #0b0b0b;
+    height: 62px;
+    grid-area: header;
+    display: flex;
+justify-content: space-between;
+}
+
+header img {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+form .button-search {
+  margin-left: 390px;
+  margin-top: -7px;
+}
+form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    width: 400px;
+    background: #f1f1f1;
+    border-radius: 2rem;
+    margin-top: 10px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+}
+form .search-btn{
+    width: 30px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.profile {
+    display: flex;
+    background-color: black;
+    height: 36px;
+    width: 100px;
+    margin-top:10px;
+    margin-right: 100px;
+    border-radius: 3rem;
+}
+
+.profile .photo {
+    background-color: rgb(202, 202, 202);
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin-top: 2.5px;
+    margin-left: 4px;
+}
+
+.profile p {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+}
+
+  aside {
+    background-color: #0B0B0B;
+    height: 90vh;
+    min-width: 290px;
+    width: 100%;
+  }
+
+  section.linha1 {
+    margin-top: 12%;
+    margin-left: 10%;
+  }
+
+  section.linha1 .playlist, .curtidas, .biblioteca, .inicio {
+    display: flex;
+  }
+  section.linha1 img {
+    height: 30px;
+  }
+
+  .biblioteca {
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+
+  .curtidas {
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+  
+  .linha1 p, a {
+    display: flex;
+    align-items: center;
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .inicio img, p {
+    margin-right: 10px;
+  }
+
+  .biblioteca img, p {
+    margin-right: 10px;
+  }
+
+   .playlist img, p {
+    margin-right: 10px;
+  }
+
+  .curtidas img, p {
+    margin-right: 10px;
+  }
+
+  section.linha2{
+    margin-top: 15%;
+  }
+
+  section.linha2 div {
+    display: flex;
+    margin-top: 5%;
+  }
+
+  section.linha2 .title {
+    display: flex;
+    justify-content: center;
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .song1 {
+    margin-left: 9%;
+    width: 80%;
+    background-color: #272727f5;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .song1 img {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .song1 p {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .song2 {
+    margin-left: 9%;
+    width: 80%;
+    background-color: #272727f5;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .song2 img {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .song2 p {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .song3 {
+    margin-left: 9%;
+    width: 80%;
+    background-color: #272727f5;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .song3 img {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .song3 p {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .song4 {
+    margin-left: 9%;
+    width: 80%;
+    background-color: #272727f5;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .song4 img {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .song4 p {
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  section.first {
+    margin-top: 3%;
+    margin-left: 35%;
+    height: 250px;
+    width: 250%;
+    width: fit-content;
+  }
+
+  section.first h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 2%;
+  }
+  .banner img {
+    border-radius: 10px;
+    width: 650px;
+    
+  }
+.banner {
+position: relative;
+}
+  .son .a{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  .son .b{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #000000;
+  }
+
+  .son .button-play {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    border: 2px solid black;
+    padding: 5px 23px 5px 23px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  .son .button-follow {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    margin-left: 30px;
+    border: 2px solid black;
+    padding: 5px 14px 5px 14px;
+    border-radius: 2rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .son .c {
+    position: absolute;
+    top: 130px;
+    left: 520px;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  .son .d {
+    position: absolute;
+    top: 150px;
+    left: 530px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+.content-albums {
+  display: flex;
+  margin-top: 1%;
+}
+
+.my-album, .happy {
+  margin-right: 25px;
+}
+
+.my-album, .happy, .sad {
+  background-color: #272727;
+  height: 245px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.my-album img, .happy img, .sad img {
+  width: 170px;
+margin-top: 14px;
+margin-left: 14px;
+box-shadow: 5px 5px 5px #0006;
+border-radius: 5px;
+}
+
+.my-album h3, .happy h3, .sad h3 {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+.my-album p, .happy p, .sad p {
+  color: #8F8F8F;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-left: 14px;
+  margin-top: 3px;
+  font-size: 11px;
+}
+
+
+section.section-my-album {
+  background-color: green;
+  height: 220px;
+  width: 1075px;
+}
+.section-my-album {
+  background-image: url("images/banner-cat.png");
+} 
+
+.banner-cat h2 {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 40px;
+  text-shadow: 5px 5px #00000057;
+}
+
+.banner-cat p {
+  margin-top: 100px;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  margin-left: 45px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+div.title-album {
+  width: 1075px;
+  height:40px;
+  margin-top: 43px;
+  position: relative;
+  border-bottom: 1px solid #343434;
+}
+
+
+div.title-album p {
+  display: inline;
+  margin-left: 50px;
+  position: absolute;
+  top: 15px;
+  color: #727272;
+  font-family:'Montserrat', sans-serif;
+}
+
+div.title-album .space {
+  margin-left: 500px;
+}
+
+.list-songs {
+  display: flex;
+  flex-direction: column;
+}
+
+div.coast {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+div.coast img {
+  height: 45px;
+}
+div.name-song-artist  {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.name-artist {
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 10px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+.name-song {
+  color: white;
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.coast .name-album {
+  margin-left: 250px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.hard-times .name-album {
+  margin-left: 256px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.girls .name-album {
+  margin-left: 240px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.dreams .name-album {
+  margin-left: 250px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.george .name-album {
+  margin-left: 245px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div.hard-times {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.hard-times img {
+  height: 45px;
+}
+
+div.girls {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.girls img {
+  height: 45px;
+}
+
+div.dreams {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.dreams img {
+  height: 45px;
+}
+
+div.george {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.george img {
+  height: 45px;
+}
+
+.section-my-album2 {
+  background-image: url("images/Design\ sem\ nome\ \(27\).png");
+  background-repeat: no-repeat;
+} 
+
+.section-my-album3 {
+  background-image: url("images/Design\ sem\ nome\ \(28\).png");
+  background-repeat: no-repeat;
+} 
+
+
+div.sting {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+div.sting img {
+  height: 45px;
+}
+
+.sting .name-album {
+  margin-left: 275px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+div.anitta {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+div.anitta img {
+  height: 45px;
+}
+
+.anitta .name-album {
+  margin-left: 275px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div.happier {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+div.happier img {
+  height: 45px;
+}
+
+.happier .name-album {
+  margin-left: 215px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+div.wrong {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.wrong .name-album {
+  margin-left: 215px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div.last {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.last .name-album {
+  margin-left: 250px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div.stuck {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.stuck .name-album {
+  margin-left: 262px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div.twenty {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.twenty .name-album {
+  margin-left: 225px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.section-coast .cover-coast {
+ background-image: url("https://pbs.twimg.com/media/FZf6EwNWIAAgq_X?format=jpg&name=large");
+ background-size: cover;
+ width: 1075px;
+ height: 480px;
+}
+
+.section-coast .artist-cover h2 {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+}
+
+.section-coast {
+  position: relative;
+}
+
+.artist-cover {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.description-cover {
+  position: absolute;
+  background-color: #6c6b6b8e;
+  width: 600px;
+  height: 76px;
+  top: 370px;
+  left: 50px;
+}
+
+.description-cover p {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px;
+}
+
+div.song-player {
+  background-color: #0B0B0B;
+  height: 83px;
+  width: 1075px;
+}
+
+.player-song-mini-cover {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.cover-coast-lyric {
+  background-color: #4676ce;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+.cover-coast-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.section-hardtimes .cover-hardtimes {
+  background-image: url("https://diy-magazine.s3.amazonaws.com/d/diy/Artists/P/Paramore/DIY-63/Paramore-PoonehGhana-DIYMay2017-19.jpg");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .section-hardtimes .artist-cover h2 {
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+ }
+ 
+ .section-hardtimes {
+   position: relative;
+ }
+
+ .paramore-diminuir {
+  height: 52px;
+ }
+ 
+ .cover-hardtimes-lyric {
+  background-color: #c7915f;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+.cover-hardtimes-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+
+.section-ggg .cover-ggg {
+  background-image: url("https://www.nme.com/wp-content/uploads/2021/06/Fletcher-2021-press-image-credit-Joelle-Grace-Taylor.jpg");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .section-ggg .artist-cover h2 {
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+ }
+ 
+ .section-ggg {
+   position: relative;
+ }
+
+ .ggg-diminuir {
+  height: 52px;
+ }
+
+ .cover-ggg-lyric {
+  background-color: #3fb0c4;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+.cover-ggg-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.section-dreams .cover-dreams {
+  background-image: url("https://tracklist.com.br/wp-content/uploads/2021/02/fleetwood-mac3.jpg");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .section-dreams .artist-cover h2 {
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+ }
+ 
+ .section-dreams {
+   position: relative;
+ }
+
+ .dreams-diminuir {
+  height: 52px;
+ }
+
+ .cover-dreams-lyric {
+  background-color: #8d8d8d;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+
+.cover-dreams-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.section-heal .cover-heal {
+  background-image: url("https://wordpress.bigissue.com/wp-content/uploads/2017/10/George-Michael.jpg");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .section-heal .artist-cover h2 {
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+ }
+ 
+ .section-heal {
+   position: relative;
+ }
+
+ .heal-diminuir {
+  height: 52px;
+ }
+
+ 
+ .cover-heal-lyric {
+  background-color: #5a5a5a;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+.cover-heal-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.list-songs a:hover {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.section-sting .cover-sting {
+  background-image: url("https://townsquare.media/site/1096/files/2022/06/attachment-FLETCHER-cropped.jpg?w=980&q=75");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .sting-diminuir {
+  height: 52px;
+ }
+
+ .cover-sting-lyric {
+  background-color: #33615f;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+
+.cover-sting-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.section-happier .cover-happier {
+  background-image: url("https://www.updatepop.com/wp-content/uploads/2021/07/E26nSDaVgAE9f4K.jpg");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .section-happier .artist-cover h2 {
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+ }
+ .happier-diminuir {
+  height: 52px;
+ }
+
+ .cover-happier-lyric {
+  background-color: #bda174;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+
+.cover-happier-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.section-envolver .cover-envolver {
+  background-image: url("https://tracklist.com.br/wp-content/uploads/2022/08/anitta.png");
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+ }
+ 
+ .section-envolver .artist-cover h2 {
+   color: white;
+   font-family:'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);
+ }
+ .envolver-diminuir {
+  height: 52px;
+ }
+
+ .cover-envolver-lyric {
+  background-color: #a74163;
+  background-size: cover;
+  width: 1075px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+
+.cover-envolver-lyric p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.playpause-track,
+.prev-track,
+.next-track {
+  padding: 25px;
+  opacity: 0.8;
+ 
+  /* Smoothly transition the opacity */
+  transition: opacity .2s;
+}
+.playpause-track i {
+  color: white;
+}
+
+
+.song-slider{
+  width: 40%;
+  position: relative;
+  left: 10%;
+  margin-top: 35px;
+}
+
+.seek-bar{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background: #919191;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.seek-bar::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 1px;
+  height: 20px;
+  box-shadow: -400px 0 0 400px #ffffff;
+}
+
+.play-track img {
+height: 40px;
+}
+
+.next-track img, .prev-track img, .share-track img, .repeat-track img, .slider_container img {
+height: 20px;
+margin-top: 10px;
+}
+
+.prev-track img {
+margin-right: 10px;
+}
+
+.next-track img {
+margin-left: 10px;
+}
+
+.repeat-track img {
+margin-left: 30px;
+}
+
+.share-track img {
+margin-right: 30px;
+}
+
+.buttons {
+display: flex;
+}
+
+div.buttons {
+position: relative;
+right: 255px;
+}
+
+.current-time {
+color: #919191;
+font-size: 12px;
+font-family: 'Montserrat', sans-serif;
+position: absolute;
+left: -45px;
+top: 3px;
+font-weight: 600;
+}
+
+.total-duration {
+color: #919191;
+font-size: 12px;
+font-family: 'Montserrat', sans-serif;
+position: absolute;
+right: -45px;
+top: 3px;
+font-weight: 600;
+}
+.volume_slider {
+-webkit-appearance: none;
+  width: 20%;
+  height: 4px;
+  border-radius: 10px;
+  background: #919191;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 600px;
+}
+
+.volume_slider::-webkit-slider-thumb{
+-webkit-appearance: none;
+width: 1px;
+height: 20px;
+box-shadow: -400px 0 0 400px #ffffff;
+}
+
+.slider_container img {
+position: absolute;
+  top: 25px;
+  left: 580px;
+  height: 15px;
+}
+
+.microfone img {
+height: 16px;
+position: absolute;
+top: 35px;
+left: 540px;
+}
+
+.pause-track img {
+height: 40px;
+}
+
+div.buttons {
+max-height: 40px;
+}
+
+.coastbody {
+  overflow: hidden;
+}

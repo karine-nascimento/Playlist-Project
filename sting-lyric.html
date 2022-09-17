@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="coastbody">
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/CatMusic.png" alt=""></a>
+        </div>
+        <form>
+            <input type="text" name="search">
+            <a href="#" class="search-btn" >
+                <img src="images/icons8-search.svg" class="button-search">
+            </a>
+        </form>
+        <div class="profile">
+            <div class="photo"></div>
+            <p>kah</p>
+        </div>
+    </header>
+    
+    <aside>
+        <section class="linha1">
+            <div class="inicio">
+                <a href="index.html"><img src="images/icons8-home-32.png" class="icon-home"></a>
+                <a href="index.html"><p>Início</p></a>
+             </div> <!--inicio-->
+         
+             <div class="biblioteca">
+                 <a href="my-album.html"><img src="images/1.png" class="icon-biblioteca"></a>
+                 <a href="my-album.html"><p>Seu Álbum</p></a>
+             </div> <!--bilioteca-->
+         
+             <div class="playlist">
+                 <a href="playlist2.html"><img src="images/3.png" class="icon-playlist"></a>
+                 <a href="playlist2.html"><p>Sua Playlist</p></a> 
+             </div> <!--playlist-->
+         
+             <div class="curtidas">
+                 <a href="playlist1.html"><img src="images/2.png" class="icon-curtidas">
+                 <p>Músicas Curtidas</p></a> 
+             </div> <!--curtidas-->
+        </section>
+
+        <section class="linha2">
+            <p class="title">Mais ouvidos hoje</p>
+
+        <a href="sting.html"><div class="song1">
+            <img src="images/fletcher.jpg" alt="" class="minicover">
+            <p>Sting</p>
+        </div></a><!--song1-->
+
+        <a href="happier.html"><div class="song2">
+            <img src="images/billie.jpg" alt="" class="minicover">
+            <p>Happier Than Ever</p>
+        </div></a><!--song2-->
+
+        <a href="envolver.html"><div class="song3">
+            <img src="images/anitta.png" alt="" class="minicover">
+            <p>Envolver</p>
+        </div></a><!--song3-->
+
+        <a href="coast.html"><div class="song4">
+            <img src="images/coast.jpg" alt="" class="minicover">
+            <p>Coast</p>
+        </div></a><!--song4-->
+        </section>
+    </aside>
+    <section class="section-sting">
+        <div class="cover-sting-lyric">
+            <p>
+                <br>
+                <br>
+                Xo, do you ever miss me?<br>
+                You chose brand new over history<br>
+                That's cold, guess we're fifty-fifty<br>
+                Don't you wish I was your girlfriend still?<br>
+                Tough luck, we were in a bad place<br>
+                Fucked up, made a couple sex tapes<br>
+                All love, whenever I hear your name<br>
+                <br>
+                Don't you wish it worked out and we were on again?<br>
+                'Cause I still feel you right here every now and then<br>
+                And it hits me like a missile in my heart again<br>
+                Don't you start again, in my heart again<br>
+                <br>
+                Honestly, all I wanna know, why does it sting?<br>
+                Why am I still hung up on things?<br>
+                Are you gonna give that diamond ring<br>
+                That's meant for me to her?<br>
+                But maybe I like the way it sting<br>
+                It's all I got left of you and me<br>
+                I'd rather it keep on cutting deeper<br>
+                Show what we were worth (I always thought that we were)<br>
+                <br>
+                Hello, do you ever rewind?<br>
+                I've been hurting from the goodbye<br>
+                Feelings, do they ever die?<br>
+                <br>
+                I wish we were on again<br>
+                'Cause I still feel you right here every now and then<br>
+                And it hits me like a missile in my heart again<br>
+                Don't you start again, in my heart again<br>
+                <br>
+                Honestly, all I wanna know, why does it sting?<br>
+                Why am I still hung up on things?<br>
+                Are you gonna give that diamond ring<br>
+                That's meant for me to her?<br>
+                But maybe I like the way it sting<br>
+                It's all I got left of you and me<br>
+                I'd rather it keep on cutting deeper<br>
+                Show what we were worth<br>
+                <br>
+                How much longer will it sting?<br>
+                How much longer will it sting?<br>
+                <br>
+                Tell me what if could start clean<br>
+                With no hard feelings between us<br>
+                Could we ever be? Could we ever be?<br>
+                Tell me what if we could go back and take it all back<br>
+                Would you ever do that with me? Do that with me?<br>
+                <br>
+                Sting, why am I still hung up on things?<br>
+                Are you gonna give that diamond ring<br>
+                That's meant for me to her?<br>
+                But maybe I like the way it sting<br>
+                It's all I got left of you and me<br>
+                I'd rather it keep on cutting deeper<br>
+                Show what we were worth<br>
+            </p>
+        </div>
+
+        <div class="song-player">
+            <div class="player-song-mini-cover">
+                <img class="sting-diminuir" src="images/fletcher.jpg" alt="">
+                <div class="name-song-artist">
+                    <p class="name-song">Sting</p>
+                    <p class="name-artist">FLETCHER</p>
+                </div>
+                <div class="song-slider">
+                    <div class="current-time">00:00</div>
+                    <input type="range" id="duration" min="0" max="100" value="0" class="seek-bar">
+                    <div class="total-duration">02:46</div>
+                </div><!--song-slider-->
+
+                <audio src="songs/sting.mp3" id="audio"></audio>
+    
+                <div class="buttons">
+    
+                    <div class="share-track" onclick="shareTrack()">
+                        <img src="share.png" alt="">
+                    </div>
+    
+                    <div class="prev-track" onclick="prevTrack()">
+                        <img src="prev.png" alt="">
+                     </div><!--prev-track-->
+        
+                     <div class="play-track" onclick="playpauseTrack()">
+                        <img src="play.png" alt="">
+                     </div><!--play-pause-->
+    
+                     <div class="next-track" onclick="nextTrack()">
+                        <img src="next.png" alt="">
+                     </div><!--next-track-->
+                     
+                     <div class="repeat-track" onclick="repeatTrack()">
+                        <img src="repetir.png" alt="">
+                    </div>
+    
+                    <div class="slider_container">
+                        <img id="volume-icon" src="volume.png" alt="">
+                         <input type="range" id="volume" min="0" max="100" value="50" class="volume_slider"> 
+                    </div>
+    
+                    <div class="microfone">
+                        <a href="sting.html"><img src="micro.png" alt=""></a>
+                    </div>
+    
+                </div><!--buttons-->
+        </div><!--mini cover-->
+        </div><!--song player-->
+    </section>
+</div>
+        
+    <script src="js.js"></script> 
+   
+</body>
+</html>
