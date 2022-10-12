@@ -11,7 +11,7 @@ As linguagens utilizadas nesse projeto foram:
 </div> 
 
 ##
-Desing: <br>
+Design: <br>
 <a href="https://www.figma.com/file/QkxWxmA49ZILogQyUOoG4e/m%C3%BAsicas?node-id=0%3A1" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/></a>
 
 ##
