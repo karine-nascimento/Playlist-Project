@@ -1,7 +1,7 @@
 Olá! <br>
 A finalidade desse projeto é criar uma plataforma musical para me apresentar através das músicas que eu escuto. Estabeleci como meta aprender mais sobre construção de layout com CSS Grid, e colocar em prática meus conhecimentos em JavaScript, tudo isso com base em um protótipo que desenvolvi utilizando o Figma. 
 
-![vídeo do projeto](https://dms.licdn.com/playlist/C4D05AQEaUKS_hsosyg/mp4-720p-30fp-crf28/0/1663453329052?e=1671220800&v=beta&t=wXPneFZUFqaOJl1UMD84Cm8lHowiOdcO73yH7TQkn94)
+![vídeo do projeto](https://github.com/karine-nascimento/Playlist-Project/blob/main/video.gif)
 
 ## 
 
