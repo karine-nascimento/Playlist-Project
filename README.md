@@ -3,6 +3,8 @@ A finalidade desse projeto é criar uma plataforma musical para me apresentar at
 
 ![vídeo do projeto](https://github.com/karine-nascimento/Playlist-Project/blob/main/video.gif)
 
+Obs: Como vídeo é em formato GIF, infelizmente não é possível ouvir as músicas, mas você poderá visualizar o vídeo com som pelo LinkedIn que está linkado ao final desse arquivo.
+
 ## 
 
 As linguagens utilizadas nesse projeto foram:
